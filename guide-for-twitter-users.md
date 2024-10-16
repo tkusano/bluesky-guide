@@ -177,6 +177,10 @@ Xと同様、ハッシュタグがあります。Xに比べたらハッシュタ
 
 今のところありません。似たような仕組みを検討中のようです。
 
+## トレンド
+
+[@favsky.bsky.social](https://bsky.app/profile/favsky.bsky.social) など、トレンドを集計して投稿するボットがいくつかありますのでそれを見てみるのが良いでしょう。
+
 ## Following
 
 Xの「フォロー中」に相当するのは「Following」です。
