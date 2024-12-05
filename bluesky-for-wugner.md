@@ -49,7 +49,7 @@ WUGの劇場公開と最初のTVシリーズの放送があった2014年は日�
 
 ### ブログ
 
-メンバーの公式Twitterアカウントが作られる代わりに毎日、アメブロにおいてブログで記事が公開された（→[Wake Up, Girls！オフィシャルブログ Powered by Ameba](https://ameblo.jp/wakeupgirls/)）。月曜日が吉岡茉祐、火曜日が永野愛理、という風に、七人に担当曜日が割り当てられて発表されていった。ブログというメディアは日本においては「Web日記」「個人ニュースサイト」という形で1990年代から日本では存在していたが、ブログという言葉や技術が改めて導入されてからは拡がりを見せ、2004年頃の真鍋かおりや中川翔子のブログは人気であり、タレントの宣伝メディアとしても使われることが多くなっていた。
+メンバーの公式Twitterアカウントが作られる代わりに毎日、アメブロにおいてブログで記事が公開された（→[Wake Up, Girls！オフィシャルブログ Powered by Ameba](https://ameblo.jp/wakeupgirls/)）。月曜日が吉岡茉祐、火曜日が永野愛理、という風に、七人に担当曜日が割り当てられて発表されていった。ブログというメディアは日本においては「Web日記」「個人ニュースサイト」という形で1990年代から日本では存在していたが、ブログという言葉や技術が改めて導入されてからは拡がりを見せ、2004年頃の真鍋かおりや中川翔子のブログは人気となり、タレントの宣伝メディアとしても使われることも多くなっていた。その後も「はてなブログ」「Note」などのブログサービスは人気である。
 
 WUGのブログは2019年の解散後も消されずに維持されており、当時のことを伝える貴重な資料として今でも参照できるのは非常にありがたい。アイドルの解散や卒業と共にそのネット上の痕跡は雲散霧消することも多い中、これはWUGが語られ続ける上で重要なアドバンテージだと言える。
 
@@ -139,7 +139,12 @@ Xで投稿や画像、ビデオ、長文を扱う機能やサブスクリプシ�
 じゃあ、自分で情報を集めて流せばいい、というWUG NewsやRGR NewsのTwitterアカウントの作成動機を再び思い出し、アカウントを開設した。Xではすっかり公式アカウントのリポストbotとなっているが、Blueskyではリポストは一切行わない運用に切り替えた。
 
 - [WUG News（非公式） - @wug.news](https://bsky.app/profile/wug.news)
+
+<script async src="https://bst.heion.net/timeline.js" data-handle="wug.news" data-theme="light" data-width="420" data-height="500" data-lang="ja" data-pin="0"></script>
+
 - [RGR News（非公式） - @rgr.news](https://bsky.app/profile/rgr.news)
+
+<script async src="https://bst.heion.net/timeline.js" data-handle="rgr.news" data-theme="light" data-width="420" data-height="500" data-lang="ja" data-pin="0"></script>
 
 相変わらず手動での投稿による運用であるため、速報性や網羅性では問題があるが、良ければ必ずBlueskyにアカウントを持っている方はフォローして欲しい。
 
