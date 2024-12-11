@@ -1,4 +1,4 @@
-2024年11月29日 17:23版。
+2024年12月11日 10:20版。
 
 Twitter、今はXという名前のSNSを使っている、あるいは、使ってた。でもなんか使いにくくなった、あるいは、居心地が悪くなったな、という人は多いことと思います。
 
@@ -30,7 +30,7 @@ Twitter（X）とだいたい同じです
 
 Bluesky公式のアプリはiPhone、Android、パソコンのブラウザで動きます
 
-- https://bsky.app/download アプリ版（スマホからアクセスした場合、各AppStoreへ飛びます。パソコンからの場合はトップページへ）
+- https://bsky.app/download アプリ版（スマホからアクセスした場合、各AppStoreへ飛びます。パソコンからの場合はトップページへ飛ばされます）
 - https://bsky.app/ ブラウザ版
 
 これらは[ソースコードが公開されている](https://github.com/bluesky-social/social-app/)ので、誰でも不具合の修正などに参加できます。私もちょくちょくパッチなどを送っています。
@@ -66,16 +66,22 @@ Blueskyの場合はBlueskyのサービス上でアカウントを作ると標準
 
 他の例を挙げるならば、
 
--  ``@transcend.co.jp`` : トランセンドジャパン（PC用のメモリやストレージ製品） [&#x2197;](https://bsky.app/profile/transcend.co.jp)
--  ``@sega.jp`` : セガ（ゲームメーカー） [&#x2197;](https://bsky.app/profile/transcend.co.jp)
--  ``@nikkei.com`` : 日本経済新聞（新聞） [&#x2197;](https://bsky.app/profile/nikkei.com)
--  ``@sankei.com`` : 産経新聞（新聞） [&#x2197;](https://bsky.app/profile/sankei.com)
--  ``@natorisana.com`` : 名取さな（丁寧なインターネット生活を目標に掲げているバーチャルYouTuber） [&#x2197;](https://bsky.app/profile/natorisana.com)
+- ``@transcend.co.jp`` : トランセンドジャパン（PC用のメモリやストレージ製品） [&#x2197;](https://bsky.app/profile/transcend.co.jp)
+- ``@sega.jp`` : セガ（ゲームメーカー） [&#x2197;](https://bsky.app/profile/transcend.co.jp)
+- ``@nikkei.com`` : 日本経済新聞（新聞） [&#x2197;](https://bsky.app/profile/nikkei.com)
+- ``@sankei.com`` : 産経新聞（新聞） [&#x2197;](https://bsky.app/profile/sankei.com)
+- ``@natorisana.com`` : 名取さな（丁寧なインターネット生活を目標に掲げているバーチャルYouTuber） [&#x2197;](https://bsky.app/profile/natorisana.com)
 - ``@shanghai-alice.com`` : ZUN（東方Project原作者）[&#x2197;](https://bsky.app/profile/shanghai-alice.com)
 
 などなどがあります。
 
 どんなハンドルが使われているかの統計は [Bluesky handle directory](https://blue.mackuba.eu/directory/) で見ることができます。
+
+### ハンドルの履歴は公開されている
+
+アカウントの変更記録、たとえば、作成日時、ハンドルの変更日時、どういうハンドルを作ってきたのか、は公開情報です。監査ログがあり、誰でもアカウントの履歴を確認できるようになっています（アクセス元など機微な情報は見えません）。商品名、作品名など、発表前の情報を名前に持つハンドルを付けるのは控えたほうが良いでしょう。鍵アカウント機能もありませんので情報漏洩にならないよう注意してください。
+
+公式アカウント作るなら、なんの関係もないような名前のアカウントを作って、公開する時にハンドルを変更すると良いです。
 
 ### 公式アカウント
 
@@ -110,6 +116,10 @@ Blueskyの場合はBlueskyのサービス上でアカウントを作ると標準
 
 というのがあります。
 
+### ドメイン以外の本人確認
+
+ドメイン名だけでは公式かどうか、あるいは、本人かどうかを確認するのには手がかりにはなるけど不十分なので、なんらかの仕組みを考えてはいるようです。
+
 ### コミュニティハンドル
 
 注：「コミュニティハンドル」はBlueskyの公式用語ではありません
@@ -127,6 +137,8 @@ exampleさんというタレントがいたとして、あなたは「example.cl
 ## 広告
 
 ありません。
+
+ただ、将来にわたって広告を出さないというわけではないようです。ただ、Bluesky社がおかしなことをやりだしたら、投稿されてるデータを引き継いで新しいSNSを立ち上げることは原理的にはできるので、それがおかしなことをやらない抑止力となるように努力しています。
 
 ## 削除
 
@@ -304,6 +316,8 @@ Xの「フォロー中」に相当するのは「Following」です。
 > あなたのフォロー中のユーザーの投稿を読み終わりました。フィードDiscover内の最新の投稿を表示します。
 
 という表示が出て、Discoverという特殊な「フィード」が続けて表示されます。
+
+注：公式クライアントの「フィード」の画面で表示されるマイフィードの一覧では「フォロー中」と表示されています
 
 ## Discover
 
@@ -556,6 +570,10 @@ Bluesky、WhiteWind、Bluecast、FrontpageなどATProtocolで作られてるATmo
 
 PDSという場所にはBlueskyとは別のアプリ向けのデータも置けます。長い文章を書いてブログのための形式で保存すれば、このブログと、そのコメントを表示しているWhiteWindがAppViewの役割となって、ブログとして表示してくれます。
 
+### Bridgy Fed
+
+Bluesky社とは別のサービスですが、[Bridgy Fed](https://fed.brid.gy/)というサービスを使えば、ActivityPub系のSNSとBlueskyを相互にフォローし合うことができます。Threadsとのやりとりもある程度できるようです。ただし、ActivityPub側のサーバーやアカウントの側で設定が必要です。詳しくはここでは省略します。
+
 ## 本文書の更新履歴
 
 GitHubで管理してます→ https://github.com/tkusano/bluesky-guide/blob/main/guide-for-twitter-users.md
@@ -564,3 +582,4 @@ GitHubで管理してます→ https://github.com/tkusano/bluesky-guide/blob/mai
 - 2024年10月18日 : Bluesky公式以外のアプリの説明を移動。広告や投稿削除について追加。ブロックやミュート関連の記述追加。ほかいろいろ
 - 2024年11月27日 : コミュニティハンドルの実例を変更。ラベルまわりの記述やActivityPub系との違いをより詳しく。リストやモデレーションリスト作者をブロックした場合の挙動についての記述を修正。ほか
 - 2024年11月29日 : jaフィード、および、favskyが運用停止したようなので削除
+- 2024年12月11日 : ハンドルの履歴、本人確認、広告、Following、Bridgy Fedについて更新・追記
